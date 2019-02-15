@@ -1,0 +1,13 @@
+<?php
+
+$mysql_host = "localhost";
+$mysql_user = "root";
+$mysql_pass = "";
+$mysql_db = "authentication";
+$mysql_error = "Could Not Connect.";
+//$con = mysqli_connect("localhost","root","","authentication");
+$con = mysqli_connect($mysql_host, $mysql_user, $mysql_pass,$mysql_db);
+// or die($mysql_error);
+//mysql_select_db($mysql_db) or die($mysql_error);
+
+?>
